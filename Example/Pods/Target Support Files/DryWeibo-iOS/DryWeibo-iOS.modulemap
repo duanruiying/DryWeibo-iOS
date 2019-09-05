@@ -1,0 +1,6 @@
+framework module DryWeibo_iOS {
+  umbrella header "DryWeibo-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
