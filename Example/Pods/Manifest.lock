@@ -1,13 +1,13 @@
 PODS:
   - DryWeibo-iOS (0.0.1):
     - Weibo_SDK
-  - Weibo_SDK (3.2.3)
+  - Weibo_SDK (3.2.7)
 
 DEPENDENCIES:
   - DryWeibo-iOS (from `../`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - Weibo_SDK
 
 EXTERNAL SOURCES:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DryWeibo-iOS: 5a1a4e3e38ff29fd04c079e68b8a3fb534fe8f83
-  Weibo_SDK: 652ca78c2f7147a5de5e75e7cbea89838a81772a
+  Weibo_SDK: 5a4d08f7e1fedbb635435e4585c8c0439c7da089
 
-PODFILE CHECKSUM: e836783b6f5b456a0bb4502c7e7cd34188a24b44
+PODFILE CHECKSUM: dfd349b2592ba378182d7dca6c755b2ae19fbc77
 
-COCOAPODS: 1.8.0.beta.2
+COCOAPODS: 1.9.1
