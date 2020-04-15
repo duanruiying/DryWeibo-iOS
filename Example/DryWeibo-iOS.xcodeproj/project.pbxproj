@@ -198,6 +198,11 @@
 				CLASSPREFIX = Dry;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = Dry;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XLE6PLCUL5;
+					};
+				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "DryWeibo-iOS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -422,6 +427,7 @@
 			baseConfigurationReference = A1FB564F3D94C1F390920055 /* Pods-DryWeibo-iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XLE6PLCUL5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DryWeibo-iOS/DryWeibo-iOS-Prefix.pch";
 				INFOPLIST_FILE = "DryWeibo-iOS/DryWeibo-iOS-Info.plist";
@@ -438,6 +444,7 @@
 			baseConfigurationReference = BD829F7D17B43D81E5C1EF7E /* Pods-DryWeibo-iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XLE6PLCUL5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DryWeibo-iOS/DryWeibo-iOS-Prefix.pch";
 				INFOPLIST_FILE = "DryWeibo-iOS/DryWeibo-iOS-Info.plist";

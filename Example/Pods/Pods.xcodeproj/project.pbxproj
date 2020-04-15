@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = Weibo_SDK;
+			productName = Weibo_SDK;
 		};
 /* End PBXAggregateTarget section */
 
@@ -62,19 +63,19 @@
 		17B51841B4A7542443D0D62D1AE369EB /* DryWeiboObj.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DryWeiboObj.m; path = "DryWeibo-iOS/Classes/Code/Public/DryWeiboObj.m"; sourceTree = "<group>"; };
 		17E590A2384178386E00F1E91ED68915 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
 		267AEF6E3753BA5997B194C7318584C1 /* Weibo_SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Weibo_SDK.release.xcconfig; sourceTree = "<group>"; };
-		293D65E05DDE7B98C7D1696E4EF19195 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		293D65E05DDE7B98C7D1696E4EF19195 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		312DC40615CC557260F39A0986498524 /* DryWeibo-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DryWeibo-iOS-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		333BBBAFCA27402DF1D299E371C559C8 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
 		3A7049E88F795129E5190AE76E4B78BC /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
-		412302B545253A56D007F0824E8B5BBE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		412302B545253A56D007F0824E8B5BBE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		749804C115AAB0698F31E579B9C343FE /* DryWeibo-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DryWeibo-iOS-Info.plist"; sourceTree = "<group>"; };
-		75067CB649A1962DC2AC2A6B2D0A6475 /* Pods_DryWeibo_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DryWeibo_iOS_Example.framework; path = "Pods-DryWeibo-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		863ACF1BC895801EC4F7D904DDB2C8B1 /* DryWeibo-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "DryWeibo-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		75067CB649A1962DC2AC2A6B2D0A6475 /* Pods_DryWeibo_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DryWeibo_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		863ACF1BC895801EC4F7D904DDB2C8B1 /* DryWeibo-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "DryWeibo-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		894DCD2855A0CA3AAE0AC7B9A6ED5283 /* DryWeibo-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DryWeibo-iOS-umbrella.h"; sourceTree = "<group>"; };
-		8BE984E204D7B0221AFA1E8C315456BB /* DryWeibo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DryWeibo_iOS.framework; path = "DryWeibo-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE984E204D7B0221AFA1E8C315456BB /* DryWeibo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DryWeibo_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F40F2C378EF478022185DAF474A995 /* DryWeibo-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "DryWeibo-iOS.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ABC965D856287072633336DC956F3839 /* Weibo_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Weibo_SDK.debug.xcconfig; sourceTree = "<group>"; };
 		AD83F3394D5D4243C9F79AA75B802032 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
 		B129A6EA9200D937E6D5D8D90B2D3BA0 /* Pods-DryWeibo-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryWeibo-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -249,7 +250,6 @@
 				384FCC027277F607AA7769C124B868CA /* Resources */,
 				7BFB1688FC5CF25F719BDA675B95AB5A /* Support Files */,
 			);
-			name = Weibo_SDK;
 			path = Weibo_SDK;
 			sourceTree = "<group>";
 		};
@@ -516,6 +516,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
 				MODULEMAP_FILE = "Target Support Files/DryWeibo-iOS/DryWeibo-iOS.modulemap";
 				PRODUCT_MODULE_NAME = DryWeibo_iOS;
 				PRODUCT_NAME = DryWeibo_iOS;
@@ -549,6 +550,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
 				MODULEMAP_FILE = "Target Support Files/DryWeibo-iOS/DryWeibo-iOS.modulemap";
 				PRODUCT_MODULE_NAME = DryWeibo_iOS;
 				PRODUCT_NAME = DryWeibo_iOS;
@@ -650,8 +652,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

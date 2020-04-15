@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   # Git
   s.name        = 'DryWeibo-iOS'
-  s.version     = '0.0.1'
+  s.version     = '1.0.0'
   s.summary     = 'DryWeibo-iOS'
   s.homepage    = 'https://github.com/duanruiying/DryWeibo-iOS'
   s.license     = { :type => 'MIT', :file => 'LICENSE' }
